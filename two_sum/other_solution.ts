@@ -1,4 +1,4 @@
-function twoSum(nums: number[], target: number): number[] {
+function twoSumObject(nums: number[], target: number): number[] {
   const map: Record<number, number> = Object.create(null);
 
   for (let i = 0; i < nums.length; i++) {
@@ -12,7 +12,7 @@ function twoSum(nums: number[], target: number): number[] {
   return [];
 }
 
-console.log(twoSum([2, 7, 11, 15], 9));
+console.log(twoSumObject([2, 7, 11, 15], 9));
 
 // ## my thoughts
 // I hadn't thought of Object.create(null). A competitive programming tip?
