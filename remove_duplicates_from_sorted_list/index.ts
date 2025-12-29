@@ -20,3 +20,9 @@ function deleteDuplicates(head: ListNode | null): ListNode | null {
   }
   return head;
 }
+
+// Scan the list from the beginning with node.
+// The difference from my solution is that the conditions are all in one place.
+// It's a little easier to read because it doesn't use continue.
+
+// But isn't the nested if statement a little harder to read? (I guess it doesn't make much diff
