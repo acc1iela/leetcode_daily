@@ -1,3 +1,14 @@
+class TreeNodeOther {
+  val: number;
+  left: TreeNode | null;
+  right: TreeNode | null;
+  constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
+    this.val = val === undefined ? 0 : val;
+    this.left = left === undefined ? null : left;
+    this.right = right === undefined ? null : right;
+  }
+}
+
 function hasPathSumOther(root: TreeNode | null, targetSum: number): boolean {
   if (!root) return false;
   if (!root.left && !root.right && root.val === targetSum) return true;
