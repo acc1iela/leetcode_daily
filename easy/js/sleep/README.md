@@ -6,8 +6,8 @@ Note that minor deviation from `millis` in the actual sleep duration is acceptab
 
 ## Example 1
 
-**Input:** `millis = 100`  
-**Output:** `100`  
+**Input:** `millis = 100`
+**Output:** `100`
 **Explanation:** It should return a promise that resolves after 100ms.
 
 ```javascript
@@ -19,8 +19,8 @@ sleep(100).then(() => {
 
 ## Example 2
 
-**Input:** `millis = 200`  
-**Output:** `200`  
+**Input:** `millis = 200`
+**Output:** `200`
 **Explanation:** It should return a promise that resolves after 200ms.
 
 ## Constraints
